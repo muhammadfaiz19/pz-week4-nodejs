@@ -1,0 +1,69 @@
+# Dependensi
+node_modules/
+package-lock.json
+yarn.lock
+
+# Direktori build
+dist/
+build/
+
+# File log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# File runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Direktori untuk instrumen seperti Istanbul
+coverage/
+
+# File konfigurasi IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+
+# File environment
+.env
+.env.test
+.env.production
+
+# File TypeScript
+*.tsbuildinfo
+
+# File konfigurasi optional
+*.config.js
+
+# Direktori temp
+tmp/
+temp/
+
+# File build TypeScript
+*.js
+*.js.map
+
+# Kecuali file konfigurasi tertentu
+!jest.config.js
+!webpack.config.js
+
+# Cache npm
+.npm
+
+# Cache eslint
+.eslintcache
+
+# File output Rollup.js
+.rollup.cache
+
+node_modules/
+.env
